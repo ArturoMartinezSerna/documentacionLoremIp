@@ -54,14 +54,17 @@ aside {
 
 .container nav {
   grid-column: 1;
+  background-color: #f1fcf4;
 }
 
 .container main {
   grid-column: 2;
+  background-color: #37be59;
 }
 
 .container aside {
   grid-column: 3;
+  background-color: #1f5c2f;
 }
 
 footer {
@@ -82,5 +85,17 @@ main {
 }
 
 aside {
-  border: 3px solid orange;
+  border: 3px solid red;
+}
+
+aside a {
+  color: #bbbe37;
+}
+
+aside a:hover {
+  color: white;
+}
+
+nav a:hover {
+  color: black;
 }
